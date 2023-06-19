@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>REGISTER</title>
+
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <style>
+        .left_pane {
+            width: 400px;
+            float: left;
+            margin-right: 50px;
+            margin-left: 175px;
+        }
+
+        .right_pane {
+            width: 400px;
+            float: right;
+        }
+
+        h3 {
+            font-size: 19px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Twenty Questions</h1>
+    <div class="form">
+        <form action="register.php" method="post" class="form-inline">
+
+            <img src="">
+
+
+            <h2>Create an Account</h2>
+            <div class="left_pane">
+            <label>First Name</label>
+            <input type="text" name="FirstName" placeholder="First Name" required /><br />
+
+            <label>Last Name</label>
+            <input type="text" name="LastName" placeholder="Last Name" required /><br />
+
+            <label>E-mail</label>
+            <input type="text" name="eMail" placeholder="Email" required /><br />
+
+            </div>
+
+            <div class="right_pane">
+            <label>User Name</label>
+            <input type="text" name="Username" placeholder="User Name" required><br>
+
+            <label>Password</label>
+            <input type="password" name="Password" placeholder="Password" required><br />
+
+            <label>Confirm Password</label>
+            <input type="password" name="confirm-password" placeholder="Confirm Password" required><br>
+
+            <button type="submit">Register</button>
+            
+            </div>
+        </form>
+
+        <h3>Already have an account? <a href="loginPage.html">Back to Login</a></h3>
+        
+
+    </div>
+</body>
+
+</html>

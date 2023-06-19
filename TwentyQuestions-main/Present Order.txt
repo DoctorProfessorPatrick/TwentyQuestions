@@ -1,0 +1,24 @@
+Presentation
+Title- All
+Product Intro- Edwin
+Model - Quadre
+Implementation - Caela
+Architecture - Edwin
+Class Diagram - Edwin
+ER Diagram- Quadre
+Use Case Diagan - Caela
+Major Operations
+—1 Edwin
+—2 Edwin
+— 3 Quadre
+—4 Quadre
+User interfaces(1&2)— Caela
+Test Cases
+   Major- Edwin
+   Response- Quadre
+  Login- Caela
+  Major Results- Edwin
+Future Enhancements
+    More cat.—Quadre
+    Progress bar— Edwin
+   Other— Caela
